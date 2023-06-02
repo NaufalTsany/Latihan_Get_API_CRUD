@@ -33,14 +33,14 @@ class _WebviewPageState extends State<WebviewPage> {
         },
       ),
     )
-    ..loadRequest(Uri.parse('https://fst.uinsgd.ac.id/'));
+    ..loadRequest(Uri.parse('https://www.canva.com/'));
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Website FST UIN"),
+        title: const Text("Website Canva"),
         actions: const [],
       ),
       body: WebViewWidget(controller: _controller!),
